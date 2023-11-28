@@ -34,7 +34,7 @@ struct ContentView: View {
                           updatePickerColor)
                 .padding(.bottom)
                 
-                Text("Roll Total: \(diceController.rollResults.count)")
+                Text("Roll Total: \(diceController.rollTotal)")
                     .frame(width: 200)
                     .background(.red)
                     .foregroundColor(.white)
@@ -88,8 +88,8 @@ struct ContentView: View {
     }//View
 
     func start() {
-        diceController.spin()
         viewModel.playSounds("DiceRollCustom1.wav")
+        diceController.spin()
     }
 
     func updatePickerColor() {

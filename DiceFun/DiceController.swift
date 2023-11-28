@@ -15,7 +15,7 @@ class DiceController {
     var isActive = false
     var timeRemaining = 0
 
-    var rollTotal = 0
+    var rollTotal = 2
     var diceVal1 = 1
     var diceVal2 = 1
 

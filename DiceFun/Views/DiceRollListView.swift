@@ -68,7 +68,6 @@ struct DiceRollListView: View {
             }//tb
         }
     }//View
-
 }
 
 #Preview {
